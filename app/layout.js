@@ -1,8 +1,6 @@
 import '../styles/globals.css'
 import { CartProvider } from '../context/CartContext'
 import { Poppins } from 'next/font/google'
-// import Navbar from '@/components/Navbar'
-
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '600'],
@@ -19,7 +17,6 @@ export default function RootLayout({ children }) {
     <html lang="en" className={poppins.className}>
       <body>
         <CartProvider>
-          {/* <Navbar /> */}
           {children}
         </CartProvider>
       </body>
