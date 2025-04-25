@@ -15,6 +15,12 @@ export default function CartPage() {
           <ul>
             {cart.map((item, idx) => (
               <li key={idx} className="flex justify-between items-center py-2 border-b">
+                {/* Image */}
+                <img 
+                  src={item.image} 
+                  alt={item.name} 
+                  className="w-16 h-16 object-cover rounded mr-4" 
+                />
                 <span>{item.name}</span>
                 <span>${item.price.toFixed(2)}</span>
                 <button
