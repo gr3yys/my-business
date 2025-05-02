@@ -13,6 +13,9 @@ const attributions = () => {
         <p>
           <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Catalin Fertu - Flaticon</a>
         </p>
+        <p>
+          <a href="https://www.flaticon.com/free-icons/back-arrow" title="back arrow icons">Back arrow icons created by Ilham Fitrotul Hayat - Flaticon</a>
+        </p>
     </div>
   )
 }

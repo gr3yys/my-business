@@ -3,11 +3,13 @@ import search from './search.png'
 import menu_black from './menu-black.png'
 import close_black from './close-black.png'
 import home_icon from './home.png'
+import back_arrow from './back-arrow.png'
 
 export const assets = {
     shopping_bag,
     search,
     menu_black,
     close_black,
-    home_icon
+    home_icon,
+    back_arrow
 }
